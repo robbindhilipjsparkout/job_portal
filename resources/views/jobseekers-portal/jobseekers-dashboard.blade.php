@@ -57,7 +57,7 @@
                                         <!-- <li>Creative Agency</li> -->
                                        <li> {{$joblist->company_name}}</li>
                                        <li> </li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                        <!-- <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li> -->
 
                                         <li>  <i class="fas fa-map-marker-alt"></i> {{$joblist->job_location}}</li>
                                         <!-- <li>$3500 - $4000</li> -->

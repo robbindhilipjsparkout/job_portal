@@ -7,7 +7,7 @@
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous">
-    </script>
+  </script> 
     <script src="{{asset('plugins/jQuery/jquery-2.2.3.min.js') }}"></script> 
     <script src="{{asset('bootstrap/js/bootstrap.min.js') }}"></script> 
     <script src="{{asset('plugins/select2/select2.full.min.js') }}"></script>

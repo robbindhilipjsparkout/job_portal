@@ -71,10 +71,10 @@
             Content body start
         ***********************************-->
 
-        <main class="py-4">
+        <!-- <main class="py-4"> -->
             @yield('content')
-        </main>
-    </div>
+        <!-- </main> -->
+    
 
         <!--**********************************
             Content body end
@@ -86,7 +86,7 @@
             Footer start
         ***********************************-->
 
-         <!-- @include('layouts.jobfooter')  -->
+          @include('layouts.jobfooter')  
         
         <!--**********************************
             Footer end

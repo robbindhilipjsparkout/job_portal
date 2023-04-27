@@ -33,7 +33,7 @@
                                         <ul id="navigation">
                                      <li> <a href="{{ url('/mainjob') }}">Home </a></li>
                                             <li><a href="job_listing.html">Find Jobs </a></li>
-                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="{{ url('/about')}}">About</a></li>
                                             <li><a href="#">Page</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
@@ -50,6 +50,7 @@
                                     @if(Route('joblist')) 
                                     <button class="btn btn-primary">  <a href="{{ url('/') }}">back </a> </button>
                                     @else
+                                  
                                 <button class="btn btn-primary">  <a href="{{ route('logout') }}"
                                           onclick="event.preventDefault();
                                           document.getElementById('logout-form').submit();">
@@ -59,7 +60,7 @@
                                          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                          @csrf
                                          </form>
-                                       @endif
+                                         @endif
                                 <!-- <div class="search-form">
                                 <a href="#" class="button">Post A Job</a>
                             </div>  

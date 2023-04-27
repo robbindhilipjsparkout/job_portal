@@ -127,3 +127,10 @@ Route::get('/jobpost', function(){
 
             Route::get('/applyjobregister',[RegisterController::class, 'applyjobregister'])->name('applyjobregister');
             Route::post('/applyjobinsert',[RegisterController::class, 'applyjobinsert'])->name('applyjobinsert');
+
+
+            Route::get('/about', function(){
+
+
+                return view('jobseekers-portal.about');
+            });

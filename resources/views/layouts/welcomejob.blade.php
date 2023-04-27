@@ -79,7 +79,7 @@
                                         <ul id="navigation">
                                         <!-- <a href="{{ url('/mainjob') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a> -->
                                             <li><a href="{{ route('joblist')}}">Find Jobs </a></li>
-                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="{{ url('/about')}}">About</a></li>
                                             <li><a href="#">Page</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
